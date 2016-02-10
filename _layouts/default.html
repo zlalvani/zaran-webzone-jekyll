@@ -7,12 +7,17 @@
 
     {% include header.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="row">
+      <div class="site-nav col-md-2 col-md-offset-1 col-xs-offset-0">
+        {% include navigator.html %}
+      </div>
+
+      <div class="page-content">
+        <div class="wrapper">
+          {{ content }}
+        </div>
       </div>
     </div>
-
     {% include footer.html %}
 
   </body>

@@ -11,12 +11,13 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 48px;
     font-weight: 300;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
+    text-align: left;
 
     &,
     &:visited {
@@ -29,9 +30,7 @@
 .site-subtitle {
     font-size: 18px; 
     //line-height: 30px;
-    text-align: right;
-    padding-top: 14px;
-    padding-left: 30px;
+    text-align: left;
     color: $grey-color;
 }
 
@@ -39,10 +38,9 @@
 .site-nav {
     padding-top: 30px;
     padding-bottom: 20px;
-    text-align: right;
+    //text-align: right;
     font-size: 20px;
     border-right: 1px solid $grey-color-light;
-    float: left;
     line-height: 30px;
     
 

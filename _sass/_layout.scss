@@ -16,30 +16,37 @@
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
+    color: red;
     float: left;
     text-align: left;
-
+    transition: all .2s ease-in-out;
+    text-decoration: none!important;
+    
     &,
     &:visited {
         color: $grey-color-dark;
     }
+    
 
+}
 
+.site-title:hover {
+    color: red;
 }
 
 .site-subtitle {
     font-size: 18px; 
-    //line-height: 30px;
+    line-height: $base-line-height;
     text-align: left;
     color: $grey-color;
 }
 
 
 .site-nav {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    //text-align: right;
-    font-size: 20px;
+    //padding-top: $spacing-unit;
+    font-size: 23px;
+    padding-bottom: $spacing-unit;
+    text-align: center;
     border-right: 1px solid $grey-color-light;
     line-height: 30px;
     
@@ -50,15 +57,23 @@
 
     .page-link {
         color: $text-color;
+        text-decoration: none;
         line-height: $base-line-height;
-        margin-left: 30px;
-        margin-right: 20px;
+        transition: all .2s ease-in-out;
+        //margin-left: $spacing-unit;
+        //margin-right: $spacing-unit / 2;
         /*
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
+            border-bottom:
             margin-right: 20px;
         }
         */
+    }
+    .page-link:hover {
+        //color: red;
+        color: red;
+        font-size: 28px;
     }
 
     /*

@@ -13,6 +13,6 @@ You can find the source code for this site here:
 {% include icon-github.html username="zlalvani" %} /
 [zaran-webzone-jekyll](https://github.com/zlalvani/zaran-webzone-jekyll)
 
-I built this site using Jekyll, a static page generator. It's pretty great. Check it out here:
+I built this site using Jekyll, a static page generator. Check it out here:
 {% include icon-github.html username="jekyll" %} /
 [jekyll](https://github.com/jekyll/jekyll) 

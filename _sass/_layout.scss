@@ -58,6 +58,7 @@
     .page-link {
         line-height: $base-line-height;
         color: $link-color;
+        //position: relative;
         //margin-left: $spacing-unit;
         //margin-right: $spacing-unit / 2;
         /*
@@ -69,9 +70,20 @@
         */
         &:hover {
             color: red;
-            font-size: 28px;
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            //font-size: 28px;
             text-decoration: none;
         }
+    }
+    .inner {
+        position: absolute;
+    }
+
+    .page-link:hover .inner {
+        z-index: 100;
     }
 
     /*
@@ -137,7 +149,10 @@
 }
 
 .footer-heading {
-    font-size: 18px;
+    font-size: 12px;
+    line-height: $base-line-height;
+    text-align: center;
+    color: $grey-color;
     margin-bottom: $spacing-unit / 2;
 }
 /*

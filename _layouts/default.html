@@ -8,8 +8,14 @@
       <div class="row">
         {% include header.html %}
           <div class="page-content col-md-12">
-            <div class="site-nav col-md-2 col-sm-2 col-xs-3">
-              {% include navigator.html %}
+            <div class="col-md-2 col-sm-2 col-xs-3">
+              <div class="row">
+                <div class="site-nav col-md-9 col-sm-11 col-xs-12">
+                  {% include navigator.html %}
+                </div>
+                <div class="col-md-3 col-sm-1 col-xs-0">
+                </div>
+              </div>
             </div>
             <div class="wrapper col-md-10 col-sm-10 col-xs-9">
               {{ content }}

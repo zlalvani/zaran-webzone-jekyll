@@ -94,13 +94,16 @@ a {
     color: $brand-color;
     text-decoration: none;
 
+    transition: all .2s ease-in-out;
+    /*
     &:visited {
         color: darken($brand-color, 15%);
     }
+    */
 
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: red;
+        text-decoration: none;
     }
 }
 
@@ -156,6 +159,10 @@ pre {
  * Wrapper
  */
 .wrapper {
+    //padding-left: $spacing-unit;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    /*
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
     margin-right: auto;
@@ -170,6 +177,7 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+    */
 }
 
 

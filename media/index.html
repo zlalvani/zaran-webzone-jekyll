@@ -4,5 +4,12 @@ title: media
 ---
 
 <div class="row">
-
+	{% for media_project in site.data.media_list %}
+	<div class="wrapper col-md-12 col-sm-12 col-xs-12">
+		<h2>
+			<a class="post-link" href="{{media_project.url | prepend: site.baseurl }}">{{media_project.name}}</a>
+		</h2>
+		<div class="post-content">{{media_project.description}}</div>
+	</div>
+	{% endfor %}
 </div>

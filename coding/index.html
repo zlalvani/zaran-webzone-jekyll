@@ -4,5 +4,17 @@ title: coding
 ---
 
 <div class="row">
-
+	{% for coding_project in site.data.coding_list %}
+	<div class="wrapper col-md-12 col-sm-12 col-xs-12">
+		<h2>
+			<a class="post-link" href="{{coding_project.url | prepend: site.baseurl }}">{{coding_project.name}}</a>
+		</h2>
+		<div class="post-content">
+			<p>{{coding_project.description}}</p>
+			{% if coding_project.liveurl %}
+			<p><a class="page-link" href="{{coding_project.liveurl}}">View it live</a></p>
+			{% endif %}
+		</div>
+	</div>
+	{% endfor %}
 </div>

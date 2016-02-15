@@ -1,0 +1,15 @@
+- name: Biplane
+  description: My first real exposure to Maya and the animation pipeline. 
+  url: /media/biplane
+
+- name: Centipede Man
+  description: A character I built and rigged, in some fun situations. 
+  url: /media/centipede-man
+
+- name: Bright Futures
+  description: A short Flash animation about what ails society...or something. 
+  url: /media/bright-futures
+
+- name: Unclassified
+  description: Stuff that's too weird to classify. 
+  url: /media/unclassified

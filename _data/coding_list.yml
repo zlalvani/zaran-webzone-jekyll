@@ -1,0 +1,24 @@
+- name: Cosmotronic
+  description: A Markov chain implementation that reads in a text file and outputs a facsimile of poetry. (Python 2.7)
+  url: https://github.com/zlalvani/cosmotronic
+  liveurl: 
+
+- name: Draw Sound
+  description: A simple web application that lets users draw lines to generate noise. (JavaScript)
+  url: https://github.com/zlalvani/draw-sound-js
+  liveurl: http://zlalvani.github.io/draw-sound-js/index.html
+
+- name: Player vs Sound
+  description: A rhythm game that generates obstacles based on the input sound file. A webcam can be used as a control input. (openFrameworks / C++)
+  url: https://github.com/zlalvani/player-vs-sound
+  liveurl: 
+
+- name: Checkers Learner
+  description: A work in progress checkers AI prototype. (Python 3)
+  url: https://github.com/zlalvani/checkers-learner
+  liveurl:
+
+- name: Observatory
+  description: I helped implement features and fix bugs in the dashboard for the Rensselaer Center for Open Source. (MEAN stack / JavaScript)
+  url: https://rcos.io/
+  liveurl:
